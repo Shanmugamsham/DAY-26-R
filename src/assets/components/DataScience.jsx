@@ -14,7 +14,7 @@ const DataScience= () => {
   console.log(setproduct);
 
   useLayoutEffect(() => {
-    fetch(" http://localhost:5173/datascience.json").then((respon)=>respon.json()).then((res)=>{
+    fetch(" http://localhost:5174//datascience.json").then((respon)=>respon.json()).then((res)=>{
       console.log(res)
 
       setproduct(res.data)
