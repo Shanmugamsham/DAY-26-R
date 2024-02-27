@@ -15,7 +15,7 @@ const CyberSecurity= () => {
   console.log(setproduct);
 
   useLayoutEffect(() => {
-    fetch(" http://localhost:5174/cybersecurity.json").then((respon)=>respon.json()).then((res)=>{
+    fetch(" http://localhost:5173/cybersecurity.json").then((respon)=>respon.json()).then((res)=>{
       console.log(res)
 
       setproduct(res.data)

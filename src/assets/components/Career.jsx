@@ -14,7 +14,7 @@ const Career = () => {
   console.log(setproduct);
 
   useLayoutEffect(() => {
-    fetch(" http://localhost:5174//career.json").then((respon)=>respon.json()).then((res)=>{
+    fetch(" http://localhost:5173//career.json").then((respon)=>respon.json()).then((res)=>{
       console.log(res)
 
       setproduct(res.data)
