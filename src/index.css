@@ -1,0 +1,74 @@
+.bg_im{
+  background-color:white;
+  background-size:cover;
+  width:100%;
+}
+.cards-im{
+  background-color:rgb(255, 255, 255);
+  border:2px solid rgb(0, 0, 0);
+  box-shadow:5px 5px rgb(1, 200, 255);
+  border-radius:25px;
+  width:100%;
+
+  text-align:center;
+  color:black;
+  font-size:25px;
+  font-family:'Times New Roman', Times, serif;
+  padding:15px;
+  margin-bottom:30px;
+  margin-top:25px;
+  
+}
+
+.photos-size{
+  width:30%;
+
+}
+
+.heading{
+  text-align:center;
+  font-family:'Times New Roman', Times, serif;
+  font-size:50px;
+  padding:15px;
+  color:black;
+
+}
+.btnout{
+  text-align:center;
+
+}
+.btns{
+  color:black;
+  font-size:20px;
+  font-family:'Times New Roman', Times, serif;
+  background-color:rgb(16, 255, 239);
+  border:2px solid black;
+  box-shadow:2px 2px blue;
+  border-radius:10px;
+  padding:5px;
+
+}
+h5{
+  font-size:30px;
+  margin-top:20px;
+  margin-bottom:25px;
+  color:rgb(0, 0, 0);
+}
+p{
+  font-size:18px;
+  padding:20px;
+   color:rgb(0, 0, 0);
+}
+.navbar-siz{
+  height:100px;
+  font-size:20px;
+ 
+}
+.heading{
+  margin-top:110px;
+  
+}
+.photos-size-1{
+  width:100%;
+
+}

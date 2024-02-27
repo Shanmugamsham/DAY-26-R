@@ -1,0 +1,12 @@
+{
+    "data":[
+       {"name": "PYTHONE","image":"https://res.cloudinary.com/ddjjx7t57/image/upload/v1709030839/desktop-wallpaper-programming-python-and-other-coding-python-programmer_onqcr1.jpg","details": "What is HTML? HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page."},
+       {"name": "AI","image":"https://res.cloudinary.com/ddjjx7t57/image/upload/v1709030915/the-4-top-artificial-intelligence-trends-for-2021_gaijuu.jpg","details": "CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML).using fro webs and adding more styles"},
+       {"name": "MACHINE LEANING","image":"https://res.cloudinary.com/ddjjx7t57/image/upload/v1709030840/1000_F_135990387_SsPQSvbreQP7nWCpT3ppbRzkpvcWgZRz_oftxk7.jpg","details": "JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else."}
+       
+   
+   
+   ]
+   
+   
+   }
