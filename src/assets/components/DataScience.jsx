@@ -10,23 +10,15 @@ const DataScience= () => {
 
    const colum={cols : "col-12 col-md-6 col-lg-4" }
     
-  const [product, setproduct] = useState([])
-  console.log(setproduct);
-
-  useLayoutEffect(() => {
-    fetch(" http://localhost:5173//datascience.json").then((respon)=>respon.json()).then((res)=>{
-      console.log(res)
-
-      setproduct(res.data)
-    
-    
-    }).catch((erre)=>console.log(erre))
-    return () => {
-   
-    };
-  }, []);
-
- console.log(product)
+    const product=[
+      {"name": "Machine learning","image":"https://res.cloudinary.com/ddjjx7t57/image/upload/v1709030340/360_F_262173764_3sxll45SOaGP5uEC7PukV3LHOB7H8dp2_1_xbeezv.jpg","details": "Data science uses modern tools and techniques to find patterns, derive information, and make business decisions. It uses complex machine learning algorithms to build predictive modelsData science uses modern tools and techniques to find patterns, derive information, "},
+      {"name": "Statistics","image":"https://res.cloudinary.com/ddjjx7t57/image/upload/v1709030341/getty_660952912_363647_jqkp5g.jpg","details": "Data science is an interdisciplinary field that uses algorithms, processes, and procedures to analyze large amounts of data. It combines principles and practices from mathematics,"},
+      {"name": "Data structures","image":"https://res.cloudinary.com/ddjjx7t57/image/upload/v1709030339/3052-datascientist.jpgL_dfdpxh.jpg","details": "Data science uses modern tools and techniques to find patterns, derive information, and make business decisions. It uses complex machine learning algorithms to build predictive models."},
+      {"name": "Data visualization","image":"https://res.cloudinary.com/ddjjx7t57/image/upload/v1709030339/desktop-wallpaper-data-science-data_d6rifc.jpg","details":"Data science is an interdisciplinary field that uses algorithms, processes, and procedures to analyze large amounts of data. It combines principles and practices from mathematics, statistics, artificial intelligence, and computer engineering."}
+      
+  
+  
+  ]
     return (
         <div className='bg_im'>
           <div className='container'>
